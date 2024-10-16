@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pinterest</title>
+    <link
+      rel="shortcut icon"
+      href="R.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="website">
+      <header>
+        <div class="nakli_nav"></div>
+        <div class="search_overlay"></div>
+        <nav>
+          <div class="nav_part1">
+            <img src="images/Capture-removebg-preview.png" />
+            <button>
+              Home <span><i class="ri-arrow-down-s-line"></i></span>
+            </button>
+            <button>Create</button>
+          </div>
+          <div class="nav_part2">
+            <div class="searchbar">
+              <i class="ri-search-line"></i>
+              <input type="text" placeholder="Search" />
+              <div class="search_result"></div>
+            </div>
+          </div>
+          <div class="nav_part3">
+            <div class="search">
+              <i class="ri-search-line"></i>
+            </div>
+            <div class="notifications">
+              <i class="ri-notification-3-fill"></i>
+              <div class="notification_number">5</div>
+            </div>
+            <div class="chat">
+              <i class="ri-chat-3-fill"></i>
+            </div>
+            <div class="pro_circle"><p>U</p></div>
+          </div>
+        </nav>
+      </header>
+      <div class="chat_page"><span></span></div>
+      <main>
+        <div class="page1">
+          <!-- <div>
+            <img src="images/product1.webp" alt="">
+            <p>Digital Voltmeter</p>
+          </div> -->
+        </div>
+      </main>
+      <div class="new_page"></div>
+      <div class="mobile_search">
+        <div class="mb_search_bar">
+          <img src="images/Capture-removebg-preview.png" />
+          <div class="search_engine">
+            <i class="ri-search-line"></i>
+            <input type="text" placeholder="Search" id="search" />
+            <i class="ri-camera-fill"></i>
+          </div>
+          <div class="cancel_mb_search">Cancel</div>
+        </div>
+        <div class="search_suggestions">
+          <div class="mb_search_results"></div>
+          <h3>Ideas for you</h3>
+          <div class="ideas">
+            <div class="idea1 idea">
+              <img src="images/pin20.jpg" />
+              <p>Computer</p>
+            </div>
+            <div class="idea2 idea">
+              <img src="images/pin12.jpg" />
+              <p>Cars</p>
+            </div>
+          </div>
+          <h3>Popular on Pinterest</h3>
+          <div class="ideas">
+            <div class="idea1 idea">
+              <img src="images/product38.webp" />
+              <p>Comic Books</p>
+            </div>
+            <div class="idea2 idea">
+              <img src="images/product15.webp" />
+              <p>Games</p>
+            </div>
+            <div class="idea2 idea">
+              <img src="images/product9.webp" />
+              <p>Toys</p>
+            </div>
+            <div class="idea2 idea">
+              <img src="images/product8.webp" />
+              <p>Bi-Cycle</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app_nav">
+        <i class="ri-home-4-fill app_home_icon"></i>
+        <i class="ri-search-line app_nav_icon"></i>
+        <i class="ri-add-line"></i>
+        <i class="ri-chat-3-fill ap_chat_icon"></i>
+        <div class="pro_circle"><p>U</p></div>
+      </div>
+      <div class="profile_page">
+        <div class="profile_details">
+          <div class="profile_image">
+            <img src="images/pin4.jpg" />
+          </div>
+          <div class="bande_ka_data">
+            <h1>Usman Haider Riasat</h1>
+            <p>lordanonymous@gmail.com</p>
+            <p>
+              Hello, I'm a Web Developer, having Experties in Frontend
+              Development.
+            </p>
+            <div class="edit_profile">
+              <button class="share_profile">Share Profile</button>
+              <button class="edit">Edit Profile</button>
+            </div>
+          </div>
+        </div>
+        <div>Saved</div>
+        <h1 class="saved_pins_heading">You have no saved pins</h1>
+        <div class="saved_data"></div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="script.js"></script>
+</html>
+
+<!-- 
+<div class="follwers">
+  <p id="follow">0 Followers</p>
+  <p id="following">1 Following</p>
+</div> -->
